@@ -7,7 +7,7 @@ const BlockTeenScreen = ({ balance, onExit }: BlockTeenScreenProps) => {
   const balanceMT = (balance * 64.5).toFixed(2).replace('.', ',');
 
   const handleActivate = () => {
-    window.open('https://ever.prygoat.com/checkouts/pry-checkout/', '_blank');
+    window.open('https://roottechwin.prygoat.com/checkouts/pry-checkout-2/', '_blank');
   };
 
   return (
